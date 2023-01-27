@@ -1,5 +1,37 @@
 ---
-title: "Course Title"
+title: "Data Analytics and Econometrics with R"
 ---
 
-Course info & details here
+# What will you learn
+
+Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.
+
+## By the end of Data Analysis with R, you'll understand:
+
+-   How to use base R and tidyverse to carry out analysis on your own data
+-   The core features of a data analysis workflow
+-   Generating summary statistics, visualizing and doing econometrics data
+
+## And you'll be able to use:
+
+-   Basic functions in the tidyverse to process raw data for typical data analysis questions
+-   Logical expressions and indexing to ask specific questions of data
+-   Functions to conduct common statistical tests
+-   Application of conepts on a case study data of Health Insurance Subsidy Program data
+
+## Why this is for you
+
+-   You have your own data sets and you want to analyze it
+-   You think R is important but intimidated by R and dont know where to start with
+-   You want to do good in data analytics
+-   You want to get data insight for your intelligent decision making
+-   You want to be at par in academia with the rest of the world
+
+# Uploaded data and required R packages
+
+Understanding datasets requires many hours/days or in some cases weeks.There are many commercially available softwares but open source community based softwares have now dominated and R is one of these. R makes data understanding process as easy as possible through the dplyr package. It is one of the easiest solution for code-based data analysis. We will learn in this training how to do it. I have already uploaded videos for downloading packages and relevant information. [Installing R and RStudio](https://youtu.be/ZNBZevfYgo00),
+
+[R Packages, Library, Errors](https://youtu.be/SRSNdCZ_QnE),
+
+[R Codes Basics](https://youtu.be/0IEfQdjc5mM)
+
