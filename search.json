@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course Title",
+    "title": "Data Analytics and Econometrics with R",
     "section": "",
-    "text": "Course info & details here"
+    "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.\n\n\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data\n\n\n\n\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data\n\n\n\n\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
   },
   {
     "objectID": "schedule.html",
