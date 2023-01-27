@@ -6,3 +6,5 @@ title: "Course Materials"
 
 [Slides](slides/)
 
+[Video lectures](lectures/)
+

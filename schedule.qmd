@@ -2,14 +2,20 @@
 title: "Schedule"
 ---
 
-Example schedule:
 
-|     |                Morning              |          Afternoon                     |
-|:---:|:-----------------------------------:|:--------------------------------------:|
-|  L  | Intro + Data manipulation           | git / GitHub                           |
-|  M  | Generalised Linear Models           | Data visualisation                     |
-|  X  | Mixed models / GAM / Bayes          | Functional programming + Students work |
-|  J  | Multivariate analyses               | Reproducible workflows                 |
-|  V  | Using R as GIS + Students work      | Project presentations                  |
+| Day | Topic |
+|------|------|
+| Day 1 | [Meet R, Taxonomy of Data]() |
+| Day 2 |  [Data cleaning and wrangling]()    |
+| Day 3 |   [Data visualization and summarisation]()   |
+| Day 4 |  [Regression]()    |
+| Day 5 |  [Quarto publishing for reports ]()  |
 
+There will be two sessions on each day with 10 minutes break:
 
+-   February 17, 5:45 pm -9:00 pm
+-   February 18, 5:45 pm -9:00 pm
+-   February 24, 5:45 pm -9:00 pm
+-   February 25, 5:45 pm -9:00 pm
+-   February 26, 5:45 pm -9:00 pm
+-   February 25, 5:45 pm -9:00 pm
