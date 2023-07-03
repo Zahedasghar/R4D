@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zahid Asghar">
+<meta name="dcterms.date" content="2023-02-01">
 
-<title>Applied Data Science - Course Materials</title>
+<title>Applied Data Science - Tidyverse in Action: Data Manipulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./materials.html">Materials</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tidyverse in Action: Data Manipulation</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -113,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./materials.html" class="sidebar-item-text sidebar-link active">
+  <a href="./materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Materials</span></a>
   </div>
 </li>
@@ -129,21 +131,52 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#one-stream-data-manipulation" id="toc-one-stream-data-manipulation" class="nav-link" data-scroll-target="#one-stream-data-manipulation">One-stream data manipulation</a>
+  <ul class="collapse">
+  <li><a href="#logical-operators" id="toc-logical-operators" class="nav-link" data-scroll-target="#logical-operators">Logical operators</a></li>
+  </ul></li>
+  <li><a href="#summarizing" id="toc-summarizing" class="nav-link" data-scroll-target="#summarizing">Summarizing</a></li>
+  <li><a href="#shape-transformation-wide-long" id="toc-shape-transformation-wide-long" class="nav-link" data-scroll-target="#shape-transformation-wide-long">Shape transformation (wide &lt;—&gt; long)</a></li>
+  <li><a href="#bringing-streams-together-joins-and-binds" id="toc-bringing-streams-together-joins-and-binds" class="nav-link" data-scroll-target="#bringing-streams-together-joins-and-binds">Bringing streams together: Joins and Binds</a></li>
+  <li><a href="#external-resources" id="toc-external-resources" class="nav-link" data-scroll-target="#external-resources">External Resources</a>
+  <ul class="collapse">
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
+  <li><a href="#data-visualization-with-ggplot2" id="toc-data-visualization-with-ggplot2" class="nav-link" data-scroll-target="#data-visualization-with-ggplot2">Data Visualization with {ggplot2}</a></li>
+  <li><a href="#cool-with-statistical-independence" id="toc-cool-with-statistical-independence" class="nav-link" data-scroll-target="#cool-with-statistical-independence">Cool with Statistical Independence</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Course Materials</h1>
+<h1 class="title">Tidyverse in Action: Data Manipulation</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zahid Asghar </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 1, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -151,11 +184,186 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="data/pakwheels.rds">Datasets</a></p>
-<p><a href="slides/">Slides</a></p>
-<p><a href="lectures/">Video lectures</a></p>
+<p>The <code>{tidyverse}</code> data manipulation functions have been a boon to analysts’ productivity. This resource is built with the idea that we sometimes just need to see how functions work in action to understand them; just link the materials for each section to see the functions “in-action”. The materials here can be used as an introduction or for reference. The <code>{tidyverse}</code> is an open source project in R lead by Hadley Wickham; the <code>{tidyverse}</code> itself contains several packages designed to work together in a consistent, logical, and human-friendly fashion.</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+</section>
+<section id="one-stream-data-manipulation" class="level1">
+<h1><a href="one_stream_wrangle.html#3" target="_blank">One-stream data manipulation</a></h1>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">function</th>
+<th style="text-align: right;">action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">filter()</td>
+<td style="text-align: right;"><em>keep rows (if true)</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">select()</td>
+<td style="text-align: right;"><em>keep variables (or drop them <code>-</code>var)</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mutate()</td>
+<td style="text-align: right;"><em>create a new variable</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">case_when()</td>
+<td style="text-align: right;"><em>is used for “recoding” variable, often used with mutate()</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">rename()</td>
+<td style="text-align: right;"><em>renaming variables</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">arrange()</td>
+<td style="text-align: right;"><em>order rows based on a variable</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">slice()</td>
+<td style="text-align: right;">*keep or drop rows based on row number</td>
+</tr>
+</tbody>
+</table>
+<section id="logical-operators" class="level3">
+<h3 class="anchored" data-anchor-id="logical-operators"><a href="booleans.html#3" target="_blank">Logical operators</a></h3>
+<p>Especially in filtering, you are likely to use Boolean operatores <code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>, which make a comparison and return <code>TRUE</code> or <code>FALSE</code>. These can also be combine with <code>&amp;</code> (both conditions must be met), <code>|</code> (either condition may be met), or <code>%in%</code> (if the left hand side element is found <em>among</em> the right hand side elements, <code>TRUE</code> is returned).</p>
+</section>
+</section>
+<section id="summarizing" class="level1">
+<h1><a href="summarize.html#3" target="_blank">Summarizing</a></h1>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">function</th>
+<th style="text-align: right;">action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">summarize()</td>
+<td style="text-align: right;"><em>summarize the data, by groups if they have been declared</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">group_by()</td>
+<td style="text-align: right;"><em>declare subsets in data</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">distinct()</td>
+<td style="text-align: right;"><em>returns only rows that are unique</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tally() &amp; count()</td>
+<td style="text-align: right;"><em>counting (by groups if group_by() applied)</em></td>
+</tr>
+</tbody>
+</table>
+<p>Base-R functions that you are might use in summarizing include <code>mean()</code>, <code>median()</code>, <code>sd()</code>, <code>IQR()</code>, <code>min()</code>, <code>max()</code> etc.</p>
+<p>The function <code>summary()</code> can also be used to request summary statistcs for an entire data set.</p>
+</section>
+<section id="shape-transformation-wide-long" class="level1">
+<h1><a href="long_to_wide_and_back.html#3" target="_blank">Shape transformation (wide &lt;—&gt; long)</a></h1>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">function</th>
+<th style="text-align: right;">action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">gather() or pivot_longer()</td>
+<td style="text-align: right;"><em>from wide to long</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">spread() or pivot_wider()</td>
+<td style="text-align: right;"><em>from long to wide</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bringing-streams-together-joins-and-binds" class="level1">
+<h1><a href="joining_data.html" target="_blank">Bringing streams together: Joins and Binds</a></h1>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">function</th>
+<th style="text-align: right;">action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">full_join()</td>
+<td style="text-align: right;"><em>keeps all rows</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">inner_join()</td>
+<td style="text-align: right;"><em>keeps overlapping rows</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">left_join()</td>
+<td style="text-align: right;"><em>keeps all left-hand side rows</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">right_join()</td>
+<td style="text-align: right;"><em>keeps all right-hand side rows</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">anti_join()</td>
+<td style="text-align: right;"><em>removes rows if there is a match on right-hand side</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">crossing()</td>
+<td style="text-align: right;"><em>for each left-hand side row, include the entire data set of the right-hand side</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bind_rows()</td>
+<td style="text-align: right;"><em>stack datasets, finding consistent column names</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bind_cols()</td>
+<td style="text-align: right;"><em>glue datasets together side-by-side</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="external-resources" class="level1">
+<h1>External Resources</h1>
+<section id="data-cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="data-cleaning"><a href="https://evamaerey.github.io/flipbooks/data_cleaning/data_cleaning" target="_blank">Data Cleaning</a></h2>
+<p>I personally think of data cleaning as a separate, but related topic to data manipulation - which is the central topic of the present resource. A separate data cleaning resource can be found <a href="https://evamaerey.github.io/flipbooks/data_cleaning/data_cleaning">here</a>.</p>
+<ul>
+<li>Regular Expressions, character string manipulation with <code>{stringr}</code></li>
+<li>Unique Identifiers for Countries with <code>{countrycode}</code></li>
+<li>Date Manipulation <code>{lubridate}</code></li>
+</ul>
+</section>
+<section id="data-visualization-with-ggplot2" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization-with-ggplot2"><a href="https://evamaerey.github.io/ggplot2_grammar_guide/ggplot2_grammar_guide" target="_blank">Data Visualization with {ggplot2}</a></h2>
+<p>Another part of the <code>{tidyverse}</code> not covered here is <code>{ggplot2}</code> the popular data visualization package authored by Hadley Wickham and contributors.</p>
+</section>
+<section id="cool-with-statistical-independence" class="level2">
+<h2 class="anchored" data-anchor-id="cool-with-statistical-independence"><a href="https://evamaerey.github.io/flipbooks/statistical_independence/statistical_independence">Cool with Statistical Independence</a></h2>
+<p>This a resource we’ve looked at for thinking about what strength of relatshionships we might observe just by chance.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
