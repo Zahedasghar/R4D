@@ -13,9 +13,17 @@ title: "Schedule"
 
 There will be two sessions on each day with 10 minutes break:
 
+<<<<<<< HEAD
 -   August 18, ... pm -... pm
 -   August  19,  
 -   August  25,  
 -   August  26,  
 -   September 1-2,  
 -   September 8-9,  
+=======
+-   February 17, 5:45 pm -9:00 pm
+-   February 18, 5:45 pm -9:00 pm
+-   February 24, 5:45 pm -9:00 pm
+-   February 25, 5:45 pm -9:00 pm
+-   February 26, 5:45 pm -9:00 pm
+>>>>>>> 3143b9a7996505416215fa07568465e10a642ed2
