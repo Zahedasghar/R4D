@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: "Applied Data Science"
   sidebar:
     background: primary
-    # logo: "images/logo.png"
+    logo: "images/zahid_logo.png"
     pinned: true
     align: center
     tools:

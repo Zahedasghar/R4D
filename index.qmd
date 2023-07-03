@@ -1,8 +1,8 @@
 ---
-title: "Data Analytics and Econometrics with R Workshop"
+title: "Applied Data Science with R"
 ---
 
-# [Click here for registration](https://forms.gle/PcqQW8VLT2fhcCth7) 
+# [Click here for registration]() 
 # What will you learn
 
 Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.
