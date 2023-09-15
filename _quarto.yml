@@ -6,7 +6,7 @@ website:
   title: "Data Analytics Workshop PIE"
   sidebar:
     background: primary
-    logo: "images/PIE.png"
+    logo: "images/pie.png"
     pinned: true
     align: center
     tools:
