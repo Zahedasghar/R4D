@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/Zahedasghar/R4D/taxonomy-of-data.html</loc>
+    <lastmod>2023-09-15T14:26:58.567Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/Zahedasghar/R4D/materials.html</loc>
-    <lastmod>2023-07-03T14:17:27.297Z</lastmod>
+    <lastmod>2023-09-15T14:26:57.723Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Zahedasghar/R4D/index.html</loc>
-    <lastmod>2023-07-03T14:17:26.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Zahedasghar/R4D/schedule.html</loc>
-    <lastmod>2023-07-03T14:17:25.821Z</lastmod>
+    <lastmod>2023-09-15T14:26:56.611Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Zahedasghar/R4D/about.html</loc>
-    <lastmod>2023-07-03T14:17:27.017Z</lastmod>
+    <lastmod>2023-09-15T14:26:57.443Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Zahedasghar/R4D/schedule.html</loc>
+    <lastmod>2023-09-15T14:26:58.023Z</lastmod>
   </url>
 </urlset>

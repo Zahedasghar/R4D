@@ -1,38 +1,136 @@
 [
   {
+    "objectID": "taxonomy-of-data.html#agenda",
+    "href": "taxonomy-of-data.html#agenda",
+    "title": "The Taxonomy of Data",
+    "section": "Agenda",
+    "text": "Agenda\n\nThe Taxonomy of Data\nSampling Techniques, Response and Explanatory Variables\npollev.com/zahidasghar349\nThe Data Frame\nRStudio.cloud introduction\n\nTo learn how to critique and construct claims made using data."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#data-defined",
+    "href": "taxonomy-of-data.html#data-defined",
+    "title": "The Taxonomy of Data",
+    "section": "Data defined",
+    "text": "Data defined\nData:\n\nAn item of (chiefly numerical) information, esp. one obtained by scientific work, a number of which are typically collected together for reference, analysis, or calculation.\n\n\nFrom latin datum: that which is given.\nFacts.\nVariable:\nA characteristic of an object / unit that can be measured / recorded.\n\nObservations: the collection of objects / units that are being measured / recorded."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#taxonomy",
+    "href": "taxonomy-of-data.html#taxonomy",
+    "title": "The Taxonomy of Data",
+    "section": "Taxonomy",
+    "text": "Taxonomy\n\nCarl Linnaeus, Systema Naturae, 1735\n\nDraw data Taxonomy on Board"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#the-taxonomy-of-data-1",
+    "href": "taxonomy-of-data.html#the-taxonomy-of-data-1",
+    "title": "The Taxonomy of Data",
+    "section": "The Taxonomy of Data",
+    "text": "The Taxonomy of Data"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#types-of-variables",
+    "href": "taxonomy-of-data.html#types-of-variables",
+    "title": "The Taxonomy of Data",
+    "section": "Types of Variables",
+    "text": "Types of Variables\nNumerical:\nVariables that take numbers as values that are sensible to add, subtract, etc.\nCategorical:\nVariables that take categories as values (called levels).\nContinuous:\nA numerical variable that takes values on an interval of the real number line.\nDiscrete:\nA numerical variable that takes values that have jumps between them (i.e. an ordered countable set).\nOrdinal:\nA categorical variable with levels that have a natural ordering.\nNominal:\nA categorical variable with levels with no ordering."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#section",
+    "href": "taxonomy-of-data.html#section",
+    "title": "The Taxonomy of Data",
+    "section": "",
+    "text": "The type of variable informs the way it should be visualized and analyzed.\nClass volunteers for noting down important questions from class lectures/discord?"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#observing-penguins",
+    "href": "taxonomy-of-data.html#observing-penguins",
+    "title": "The Taxonomy of Data",
+    "section": "Observing Penguins",
+    "text": "Observing Penguins"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#palmer-station-antarctica",
+    "href": "taxonomy-of-data.html#palmer-station-antarctica",
+    "title": "The Taxonomy of Data",
+    "section": "Palmer Station, Antarctica",
+    "text": "Palmer Station, Antarctica\nSize measurements for adult foraging penguins near Palmer Station, Antarctica, K. Gorman 2020."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#variables-beak-length-beak-depth",
+    "href": "taxonomy-of-data.html#variables-beak-length-beak-depth",
+    "title": "The Taxonomy of Data",
+    "section": "Variables: Beak Length, Beak Depth",
+    "text": "Variables: Beak Length, Beak Depth\n\n\nThese are continuous variables."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#variable-species",
+    "href": "taxonomy-of-data.html#variable-species",
+    "title": "The Taxonomy of Data",
+    "section": "Variable: Species",
+    "text": "Variable: Species\n\n\nThis is a nominal variable."
+  },
+  {
+    "objectID": "taxonomy-of-data.html#the-data-frame-1",
+    "href": "taxonomy-of-data.html#the-data-frame-1",
+    "title": "The Taxonomy of Data",
+    "section": "The Data Frame",
+    "text": "The Data Frame\n\n\n\n\n\nbill_depth_mm\nbill_length_mm\nspecies\n\n\n\n\n14.5\n45.1\nGentoo\n\n\n14.8\n45.2\nGentoo\n\n\n16.6\n45.2\nChinstrap\n\n\n20.6\n39.3\nAdelie\n\n\n\n\n\n\n\nA data frame is an array that associates the observations (downs the rows) with the variables measured on each observation (across the columns). Each cell storse a value observed for a variable on an observation.\nUnit of observation:\nThe type of the object on which the variables are observed.\n\nHere: an adult foraging penguin near Palmer Station, Antarctica"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#non-tidy-data-frames",
+    "href": "taxonomy-of-data.html#non-tidy-data-frames",
+    "title": "The Taxonomy of Data",
+    "section": "Non-tidy Data Frames",
+    "text": "Non-tidy Data Frames\nFrom Wikipedia, a contingency table of sex and handedness.\n\n.task[ What is the unit of observation?\nWhat are the variables? ]"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#non-tidy-data-frames-1",
+    "href": "taxonomy-of-data.html#non-tidy-data-frames-1",
+    "title": "The Taxonomy of Data",
+    "section": "Non-tidy Data Frames",
+    "text": "Non-tidy Data Frames\nFrom the World Bank, the number of hospital beds.\n\nWhat is the unit of observation?\nWhat are the variables?"
+  },
+  {
+    "objectID": "taxonomy-of-data.html#section-1",
+    "href": "taxonomy-of-data.html#section-1",
+    "title": "The Taxonomy of Data",
+    "section": "",
+    "text": "Data are ubiquitous and precious than oil\nChallenge is to make sense for insightful action\nNot something to learn about but do about"
+  },
+  {
     "objectID": "materials.html",
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Datasets\nSlides\nVideo lectures"
+    "text": "education_data_worldbank\nmajors\nSlides\nVideo lectures\nTaxonomy of data\nIntroduction to data\nInroduction to data Video\nSummarising data"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Analysis Workshop at PIE",
+    "section": "",
+    "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.\n\n\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data\n\n\n\n\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data\n\n\n\n\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
   },
   {
     "objectID": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
     "href": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
-    "title": "Applied Data Science with R",
-    "section": "By the end of Data Analysis with R, you’ll understand:",
-    "text": "By the end of Data Analysis with R, you’ll understand:\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
+    "title": "Data Analysis Workshop at PIE",
+    "section": "",
+    "text": "How to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
   },
   {
     "objectID": "index.html#and-youll-be-able-to-use",
     "href": "index.html#and-youll-be-able-to-use",
-    "title": "Applied Data Science with R",
-    "section": "And you’ll be able to use:",
-    "text": "And you’ll be able to use:\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data"
+    "title": "Data Analysis Workshop at PIE",
+    "section": "",
+    "text": "Basic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data"
   },
   {
     "objectID": "index.html#why-this-is-for-you",
     "href": "index.html#why-this-is-for-you",
-    "title": "Applied Data Science with R",
-    "section": "Why this is for you",
-    "text": "Why this is for you\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "title": "Data Analysis Workshop at PIE",
     "section": "",
-    "text": "Day\nTopic\n\n\n\n\nWeek 1\nMeet R, Taxonomy of Data\n\n\nWeek 2\nData cleaning and wrangling\n\n\nWeek 3\nData visualization and summarisation\n\n\nWeek 4\nRegression\n\n\nWeek 5\nQuarto publishing for reports\n\n\n\nThere will be two sessions on each day with 10 minutes break:\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD - August 18, … pm -… pm - August 19,\n- August 25,\n- August 26,\n- September 1-2,\n- September 8-9,\n======= - February 17, 5:45 pm -9:00 pm - February 18, 5:45 pm -9:00 pm - February 24, 5:45 pm -9:00 pm - February 25, 5:45 pm -9:00 pm - February 26, 5:45 pm -9:00 pm &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3143b9a7996505416215fa07568465e10a642ed2"
+    "text": "You have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
   },
   {
     "objectID": "about.html",
@@ -61,5 +159,12 @@
     "title": "Tidyverse in Action: Data Manipulation",
     "section": "Cool with Statistical Independence",
     "text": "Cool with Statistical Independence\nThis a resource we’ve looked at for thinking about what strength of relatshionships we might observe just by chance."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Day\nTopic\n\n\n\n\nDay 1\nMeet R, Taxonomy of Data, Data cleaning and wrangling\n\n\nDay 2\nData visualization, tables and summarisation\n\n\nDay 3\nRegression\n\n\nDay 4\nContinued\n\n\nDay 5\nQuarto publishing for reports\n\n\n\nThere will be two sessions on each day with 10 minutes break:\n\nSeptember 19 , 9 am - 5 pm\nSeptember 21, 9 am - 5 pm\nTBD\nTBD\nTBD"
   }
 ]
