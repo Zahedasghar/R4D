@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+
+
+/*-- Define colors for later use --*/
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #abd5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #342a40;
+$gray-900: #212529;
+$black: #000;
+$primary: #BB4430;
+$secondary: #F3DFA2;
+$tertiary: #0D5C63;
+
+
+/*-- Define Bootstrap color variables --*/
+
+// The page text color.
+$body-color: $gray-700;
+
+//Code block background.
+$code-block: $secondary;
+// Background colore of inline code.
+$code-bg: $secondary;
+
+// Color of inline code.
+$code-color: $tertiary;
+
+
+/*-- Define Bootstrap font variables --*/
+
+// The font-serif font family for the page.
+
+$font-family-sans-serif: "Open Sans", "Cambria",
+"Georgia", "Serif";
+
+// The monospace font family for the page.
+$font-family-monospace: "Noto Sans Mono",
+"Source Code Pro", "Courier New", "mono space";
+
+// The base font size for the page.
+$font-size-base: 1.1rem;
+
+
+
+
+
+
+
+
+
