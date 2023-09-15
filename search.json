@@ -107,30 +107,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Analysis Workshop at PIE",
+    "title": "Data Analysis Workshop PIE",
     "section": "",
-    "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.\n\n\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data\n\n\n\n\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data\n\n\n\n\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
+    "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop."
+  },
+  {
+    "objectID": "index.html#what-will-you-learn",
+    "href": "index.html#what-will-you-learn",
+    "title": "Data Analysis Workshop PIE",
+    "section": "",
+    "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop."
   },
   {
     "objectID": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
     "href": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
-    "title": "Data Analysis Workshop at PIE",
-    "section": "",
-    "text": "How to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
+    "title": "Data Analysis Workshop PIE",
+    "section": "By the end of Data Analysis with R, you’ll understand:",
+    "text": "By the end of Data Analysis with R, you’ll understand:\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
   },
   {
     "objectID": "index.html#and-youll-be-able-to-use",
     "href": "index.html#and-youll-be-able-to-use",
-    "title": "Data Analysis Workshop at PIE",
-    "section": "",
-    "text": "Basic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data"
+    "title": "Data Analysis Workshop PIE",
+    "section": "And you’ll be able to use:",
+    "text": "And you’ll be able to use:\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data"
   },
   {
     "objectID": "index.html#why-this-is-for-you",
     "href": "index.html#why-this-is-for-you",
-    "title": "Data Analysis Workshop at PIE",
-    "section": "",
-    "text": "You have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
+    "title": "Data Analysis Workshop PIE",
+    "section": "Why this is for you",
+    "text": "Why this is for you\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
   },
   {
     "objectID": "about.html",
