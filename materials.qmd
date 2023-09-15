@@ -2,9 +2,20 @@
 title: "Course Materials"
 ---
 
-[Datasets](data/pakwheels.rds)
+[education_data_worldbank](data/education.csv)
+
+[majors](data/majors.csv)
 
 [Slides](slides/)
 
 [Video lectures](lectures/)
+
+[Taxonomy of data](https://zahidasghar.com/R4D/taxonomy-of-data#/title-slide)
+
+[Introduction to data](https://github.com/OpenIntroStat/openintro-statistics-slides/blob/master/Chp%201/chp1.pdf)
+
+[Inroduction to data Video](https://youtu.be/JqErvErJdmU) 
+
+[Summarising data](https://github.com/OpenIntroStat/openintro-statistics-slides/blob/master/Chp%202/chp2.pdf)
+
 

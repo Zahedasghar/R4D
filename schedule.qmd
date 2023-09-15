@@ -5,25 +5,16 @@ title: "Schedule"
 
 | Day | Topic |
 |------|------|
-| Week 1 | [Meet R, Taxonomy of Data]() |
-| Week 2 |  [Data cleaning and wrangling]()    |
-| Week 3 |   [Data visualization and summarisation]()   |
-| Week 4 |  [Regression]()    |
-| Week 5 |  [Quarto publishing for reports ]()  |
+| Day 1 | [Meet R, Taxonomy of Data, Data cleaning and wrangling]() |
+| Day 2 | [Data visualization, tables and summarisation]()     |
+| Day 3 |   [Regression]()     |
+| Day 4 |  [Continued]() |
+| Day 5 |  [Quarto publishing for reports ]()  |
 
 There will be two sessions on each day with 10 minutes break:
 
-<<<<<<< HEAD
--   August 18, ... pm -... pm
--   August  19,  
--   August  25,  
--   August  26,  
--   September 1-2,  
--   September 8-9,  
-=======
--   February 17, 5:45 pm -9:00 pm
--   February 18, 5:45 pm -9:00 pm
--   February 24, 5:45 pm -9:00 pm
--   February 25, 5:45 pm -9:00 pm
--   February 26, 5:45 pm -9:00 pm
->>>>>>> 3143b9a7996505416215fa07568465e10a642ed2
+-   September 19 , 9 am - 5 pm
+-   September  21, 9 am - 5 pm
+-   TBD
+-   TBD 
+-   TBD

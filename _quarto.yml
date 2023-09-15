@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Applied Data Science"
+  title: "Data Analytics Workshop PIE"
   sidebar:
     background: primary
     logo: "images/zahid_logo.png"
@@ -21,7 +21,7 @@ website:
         text: Schedule
       - href: materials.qmd
         text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
+      - href: https://github.com/zahedasghar/R4D
         text: Forum
 
 format:

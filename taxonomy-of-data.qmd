@@ -1,0 +1,196 @@
+---
+title: "The Taxonomy of Data"
+author: "ZAHID ASGHAR"
+date: "today"
+format: 
+  revealjs: 
+    theme: simple
+    chalkboard: true
+execute: 
+  freeze: auto
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Good Morning
+
+While you're waiting, please send a browser tab to
+`pollev.com/zahidasghar349` or download the Poll Everywhere app to your
+phone.
+
+```{r}
+#| warning: false
+#| message: false
+library(tidyverse)
+```
+
+# The Taxonomy of Data
+
+
+
+## Agenda {background-color="#806040"}
+
+1.  The Taxonomy of Data
+2.  Sampling Techniques, Response and Explanatory Variables
+3.  pollev.com/zahidasghar349
+4.  The Data Frame
+5.  RStudio.cloud introduction
+
+To learn how to critique and construct claims made using data.
+
+## Data defined
+
+**Data:**
+
+(n) An item of (chiefly numerical) information, esp. one obtained by
+    scientific work, a number of which are typically collected together
+    for reference, analysis, or calculation.
+
+-   From latin *datum*: that which is given.
+
+-   Facts.
+
+-   **Variable:**
+
+-   A characteristic of an object / unit that can be measured /
+    recorded.
+
+**Observations**: the collection of objects / units that are being
+measured / recorded.
+
+## Taxonomy
+
+![](images/plant-taxonomy.jpeg)
+
+Carl Linnaeus, *Systema Naturae*, 1735
+
+::: notes
+Draw data Taxonomy on Board
+:::
+
+## The Taxonomy of Data
+
+![](images/taxonomy-of-data.png)
+
+## Types of Variables
+
+**Numerical**:
+
+Variables that take numbers as values that are sensible to add,
+subtract, etc.
+
+**Categorical**:
+
+Variables that take categories as values (called *levels*).
+
+**Continuous**:
+
+A numerical variable that takes values on an interval of the real number
+line.
+
+**Discrete**:
+
+A numerical variable that takes values that have jumps between them
+(i.e. an ordered countable set).
+
+**Ordinal**:
+
+A categorical variable with levels that have a natural ordering.
+
+**Nominal**:
+
+A categorical variable with levels with no ordering.
+
+## 
+
+[The **type** of variable informs the way it should be **visualized**
+and **analyzed**.](.adage)
+
+Class volunteers for noting down important questions from class
+lectures/discord?
+
+# The Data Frame
+
+## Observing Penguins
+
+![](images/palmer-station.jpeg)
+
+## Palmer Station, Antarctica
+
+*Size measurements for adult foraging penguins near Palmer Station,
+Antarctica*, K. Gorman 2020.
+
+## Variables: Beak Length, Beak Depth
+
+![](images/culmen_depth.png)
+
+> These are *continuous* variables.
+
+## Variable: Species
+
+![](images/lter_penguins.png)
+
+> This is a nominal variable.
+
+## The Data Frame
+
+```{r message = FALSE, echo = FALSE}
+library(knitr)
+library(kableExtra)
+library(palmerpenguins)
+penguins %>%
+  select(bill_depth_mm, bill_length_mm, species) %>%
+  sample_n(4) %>%
+  kbl()
+```
+
+A **data frame** is an array that associates the *observations* (downs
+the rows) with the *variables* measured on each observation (across the
+columns). Each cell storse a **value** observed for a variable on an
+observation.
+
+**Unit of observation**:
+
+The type of the object on which the variables are observed.
+
+> Here: an adult foraging *penguin* near Palmer Station, Antarctica
+
+## Non-tidy Data Frames
+
+From Wikipedia, a *contingency table* of sex and handedness.
+
+![](images/non-tidy-contingency-table.png)
+
+.task[ What is the unit of observation?
+
+What are the variables? ]
+
+## Non-tidy Data Frames {background-color="aquamarine"}
+
+From the World Bank, the number of hospital beds.
+
+![](images/non-tidy-world-bank.png)
+
+What is the unit of observation?
+
+What are the variables?
+
+##  {background-color="aquamarine"}
+
+
+::: columns
+::: {.column width="30%"}
+-   Data are ubiquitous and precious than oil
+
+-   Challenge is to make sense for insightful action
+
+-   Not something to learn about but do about
+:::
+
+::: {.column width="70%"}
+<iframe src="https://giphy.com/embed/Of40xPqggQrde" width="480" height="315" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+</iframe>
+:::
+:::
