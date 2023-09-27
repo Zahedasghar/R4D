@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Data Analytics Workshop PIE"
+  title: "Data Analytics Workshop"
   sidebar:
     background: primary
-    logo: "images/pie.png"
+    logo: "images/zahid_logo.png"
     pinned: true
     align: center
     tools:

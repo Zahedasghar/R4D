@@ -1,5 +1,5 @@
 ---
-title: "[Data Analysis Workshop PIE]{.flow}"
+title: "[Business Data Analytics]{.flow}"
 format: 
   html:
     theme: [default, custom.css, styles.scss]

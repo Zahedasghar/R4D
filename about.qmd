@@ -6,7 +6,7 @@ format: html
 ---
 
 
-The `{tidyverse}`  data manipulation functions have been a boon to analysts' productivity. This resource is built with the idea that we sometimes just need to see how functions work in action to understand them; just link the materials for each section to see the functions "in-action". The materials here can be used as an introduction or for reference. The `{tidyverse}` is an open source project in R lead by Hadley Wickham; the `{tidyverse}` itself contains several packages designed to work together in a consistent, logical, and human-friendly fashion.
+The `{tidyverse}`  data manipulation functions have been a boon to analysts' productivity. This resource is built with the idea that we sometimes just need to see how functions work in action to understand them; just link the materials for each section to see the functions "in-action". The materials here can be used as an introduction or for reference. The `{tidyverse}` is an open source project in R lead by Hadley Wickham; the `{tidyverse}` itself contains several packages designed to work together in a consistent, logical, and human-friendly fashion. This course will also introduce modern business data science through real data sets. 
 
 # Introduction
 

@@ -7,14 +7,10 @@ title: "Schedule"
 |------|------|
 | Day 1 | [Meet R, Taxonomy of Data, Data cleaning and wrangling]() |
 | Day 2 | [Data visualization, tables and summarisation]()     |
-| Day 3 |   [Regression]()     |
-| Day 4 |  [Continued]() |
-| Day 5 |  [Quarto publishing for reports ]()  |
+| Day 3 |   [Regression]() ,[Quarto publishing for reports ]()     |
+ 
 
-There will be two sessions on each day with 10 minutes break:
-
--   September 19 , 9 am - 5 pm
--   September  21, 9 am - 5 pm
+Dates has yet to be finalized:
 -   TBD
 -   TBD 
 -   TBD
