@@ -98,46 +98,53 @@
     "text": "Data are ubiquitous and precious than oil\nChallenge is to make sense for insightful action\nNot something to learn about but do about"
   },
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Course Materials",
-    "section": "",
-    "text": "education_data_worldbank\nmajors\nSlides\nVideo lectures\nTaxonomy of data\nIntroduction to data\nInroduction to data Video\nSummarising data"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Business Data Analytics",
+    "title": "Applied Econometrics with R",
     "section": "",
     "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop."
   },
   {
     "objectID": "index.html#what-will-you-learn",
     "href": "index.html#what-will-you-learn",
-    "title": "Business Data Analytics",
+    "title": "Applied Econometrics with R",
     "section": "",
     "text": "Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop."
   },
   {
     "objectID": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
     "href": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
-    "title": "Business Data Analytics",
+    "title": "Applied Econometrics with R",
     "section": "By the end of Data Analysis with R, you’ll understand:",
     "text": "By the end of Data Analysis with R, you’ll understand:\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
   },
   {
     "objectID": "index.html#and-youll-be-able-to-use",
     "href": "index.html#and-youll-be-able-to-use",
-    "title": "Business Data Analytics",
+    "title": "Applied Econometrics with R",
     "section": "And you’ll be able to use:",
-    "text": "And you’ll be able to use:\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of conepts on a case study data of Health Insurance Subsidy Program data"
+    "text": "And you’ll be able to use:\n\nBasic functions in the tidyverse to process raw data for typical data analysis questions\nLogical expressions and indexing to ask specific questions of data\nFunctions to conduct common statistical tests\nApplication of concepts on a real data sets in economics and social sciences"
   },
   {
     "objectID": "index.html#why-this-is-for-you",
     "href": "index.html#why-this-is-for-you",
-    "title": "Business Data Analytics",
+    "title": "Applied Econometrics with R",
     "section": "Why this is for you",
     "text": "Why this is for you\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Modern Business Analytics\neducation_data_worldbank\nmajors\nSlides\nVideo lectures\nTaxonomy of data\nIntroduction to data\nInroduction to data Video\nSummarising data"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Day\nTopic\n\n\n\n\nDay 1\nMeet R, Taxonomy of Data, Data cleaning and wrangling\n\n\nDay 2\nData visualization, tables and summarisation\n\n\nDay 3\nRegression ,Quarto publishing for reports\n\n\n\nDates has yet to be finalized: - TBD - TBD - TBD"
   },
   {
     "objectID": "about.html",
@@ -166,12 +173,5 @@
     "title": "Tidyverse in Action: Data Manipulation",
     "section": "Cool with Statistical Independence",
     "text": "Cool with Statistical Independence\nThis a resource we’ve looked at for thinking about what strength of relatshionships we might observe just by chance."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Day\nTopic\n\n\n\n\nDay 1\nMeet R, Taxonomy of Data, Data cleaning and wrangling\n\n\nDay 2\nData visualization, tables and summarisation\n\n\nDay 3\nRegression ,Quarto publishing for reports\n\n\n\nDates has yet to be finalized: - TBD - TBD - TBD"
   }
 ]
