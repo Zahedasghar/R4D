@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Data Analytics Workshop"
+  title: "Applied Econoetrics with R"
   sidebar:
     background: primary
-    logo: "images/zahid_logo.png"
+    logo: "images/pide.png"
     pinned: true
     align: center
     tools:

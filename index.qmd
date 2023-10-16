@@ -1,5 +1,7 @@
 ---
-title: "[Business Data Analytics]{.flow}"
+title: "[Applied Econometrics with R]{.flow}"
+subtitle: "PIDE, Islamabad"
+author: "Zahid Asghar"
 format: 
   html:
     theme: [default, custom.css, styles.scss]
@@ -25,7 +27,7 @@ Basic feature of this workshop will be to start exploring and modeling data usin
 -   Basic functions in the tidyverse to process raw data for typical data analysis questions
 -   Logical expressions and indexing to ask specific questions of data
 -   Functions to conduct common statistical tests
--   Application of conepts on a case study data of Health Insurance Subsidy Program data
+-   Application of concepts on a real data sets in economics and social sciences
 
 ## Why this is for you
 

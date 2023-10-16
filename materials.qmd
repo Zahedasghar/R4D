@@ -2,6 +2,8 @@
 title: "Course Materials"
 ---
 
+[Modern Business Analytics](https://www.mheducation.com/highered/product/modern-business-analytics-taddy-harding/M9781264071678.html)
+
 [education_data_worldbank](data/education.csv)
 
 [majors](data/majors.csv)

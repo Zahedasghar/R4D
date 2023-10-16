@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 7d4b6b1a-dc3c-43bd-b044-3c7de59ee767
+      url: 'https://quiet-semolina-6ab27d.netlify.app'
