@@ -1,6 +1,6 @@
 ---
-title: "[Applied Econometrics with R]{.flow}"
-subtitle: "PIDE, Islamabad"
+title: "[Data Analytics workshop with R]{.flow}"
+subtitle: "PERI, Lahore"
 author: "Zahid Asghar"
 format: 
   html:
