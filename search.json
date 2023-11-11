@@ -130,7 +130,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Day\nTopic\n\n\n\n\nDay 1\nMeet R, Taxonomy of Data, Data cleaning and wrangling\n\n\nDay 2\nData visualization, tables and summarisation\n\n\nDay 3\nRegression ,Quarto publishing for reports\n\n\n\nDates has yet to be finalized: - 13-11-2023 - 14-11-2023 - 15-11-2023"
+    "text": "Day\nTopic\n\n\n\n\nDay 1\nMeet R, Taxonomy of Data, Data cleaning and wrangling\n\n\nDay 2\nData visualization, tables and summarisation\n\n\nDay 3\nRegression ,Quarto publishing for reports"
+  },
+  {
+    "objectID": "schedule.html#daywise-detail",
+    "href": "schedule.html#daywise-detail",
+    "title": "Schedule",
+    "section": "Daywise detail",
+    "text": "Daywise detail\n\n\n\n13 -11-2023\nTitle\nTopics to be covered\nReading m aterial\n\n\nS ession-1\nIntroduction\nData Vocabulary, taxonomy ( nominal, ca tegorical, discrete, co ntinuous)\nR-packages and libraries\nIntroduction to R, RStudio, Posit Cloud, github\npos it\n[taxonomy of data]( https :/ /zahidasghar.com /R4DA /t axonomy/taxonomy -of-d at a#/title-slide))\n\n\nS ession-2\nIntroduction to R,\nReading /writing STATA/ SPSS/ csv/xlsx webAPI data in R\n\n[intro-r](Int roduction to R ( zahidasghar.com)\nR for Data Science by Hadley Wickham\n\n\nS ession-3\nBasics of Data Wrangling\n\nMeet R , Slides 1.2 in material section\n\n\nSession 4\nPractice Session\nEducation data of DHS, PSLM, ASER, ALIFAILAN\nIn- class lab and exercise\n\n\n14 -11-2023\n\nSome variation maybe there depending upon first day experience\n\n\n\nSession 1\nRecap and continuation of data wrangling\n5 verbs for 80% of data wrangling\n\n\n\nS ession-2\nData V isualization (when to make which graph )\nbar, scatter, line and histograms with educational case study data in ggplot2\ngraphics for categorical and continuous data using R,\n\n\nS ession-3\nLab on having data v isualization\nIn-class lab\nApplications\n\n\nS ession-4\n\n*Lab**\n\nDay 1 and day 2 lessons with practice on education, gapminder and other data sets\nHomework lab discussion\n\n\nDay-3\n\n\n\n\n\nS ession-1\nData Tables, Measure of central tendency, dispersion\nLearning Data Tables with R as published in world leading outlets\nTables from various PIE re sources and r eproducing tables like 538, NYT, WSJ, FT…\n\n\n\nExploratory data analysis in minutes\nData Exploration not in months weeks but in minutes\n\n\n\nSe sssion-2\nEconometric models\nLinear, Generalized linear models and other models\nPDSH, Caschool data\n\n\nS ession-3\nConitinued\nHow to have results of various models like those of leading journals\n\n\n\nS ession-4\nPractice session and way forward\nResources for learning yourself"
   },
   {
     "objectID": "index.html",
@@ -151,7 +158,7 @@
     "href": "index.html#by-the-end-of-data-analysis-with-r-youll-understand",
     "title": "Data Analytics workshop with R",
     "section": "By the end of Data Analysis with R, you’ll understand:",
-    "text": "By the end of Data Analysis with R, you’ll understand:\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics data"
+    "text": "By the end of Data Analysis with R, you’ll understand:\n\nHow to use base R and tidyverse to carry out analysis on your own data\nThe core features of a data analysis workflow\nGenerating summary statistics, visualizing and doing econometrics"
   },
   {
     "objectID": "index.html#and-youll-be-able-to-use",
@@ -165,7 +172,28 @@
     "href": "index.html#why-this-is-for-you",
     "title": "Data Analytics workshop with R",
     "section": "Why this is for you",
-    "text": "Why this is for you\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in academia with the rest of the world"
+    "text": "Why this is for you\n\nYou have your own data sets and you want to analyze it\nYou think R is important but intimidated by R and dont know where to start with\nYou want to do good in data analytics\nYou want to get data insight for your intelligent decision making\nYou want to be at par in evidence-based research, policy analysis,academia, gig economy worker with the rest of the world"
+  },
+  {
+    "objectID": "index.html#uploaded-data-and-required-r-packages",
+    "href": "index.html#uploaded-data-and-required-r-packages",
+    "title": "Data Analytics workshop with R",
+    "section": "Uploaded data and required R packages",
+    "text": "Uploaded data and required R packages\nUnderstanding datasets requires many hours/days or in some cases weeks.There are many commercially available softwares but open source community based softwares have now dominated and R is one of these. R makes data understanding process as easy as possible through the dplyr package. It is one of the easiest solution for code-based data analysis. We will learn in this training how to do it."
+  },
+  {
+    "objectID": "index.html#preparation",
+    "href": "index.html#preparation",
+    "title": "Data Analytics workshop with R",
+    "section": "Preparation",
+    "text": "Preparation\nIn order to avoid a sluggish and organization-heavy start of the course, installation of all software components used in this course is to be completed in advance. Preparatory readings are not mandatory but may decrease the learning curve."
+  },
+  {
+    "objectID": "index.html#setting-up-r-r-studio-and-github",
+    "href": "index.html#setting-up-r-r-studio-and-github",
+    "title": "Data Analytics workshop with R",
+    "section": "Setting up R, R-Studio and Git(Hub)",
+    "text": "Setting up R, R-Studio and Git(Hub)\nIf you’ve never used R, R-Studio or Git(Hub) before, start by installing each software component. I suggest you to do so in the following order:\nInstall R.\nInstall R-Studio.\nCreate a GitHub account. Take some care with the user-name if you want to keep this account throughout your career. You can’t change it afterwards.\nInstall Git.\n\nOpen a shell. On windows, Git comes with its own shell. Open it by searching for “Git Bash”. On Mac, just search for your “Terminal” application. Enter the following commands:\n\n`git config –global user.name ‘Your name’’\n‘git config –global user.email ’Your E-mail linked to GitHub’`\n\n(optional) Sometimes, using a GUI can be convenient for interacting with Git. GitHub Desktop has gotten pretty decent recently. The GitHub Desktop installation wizard also helps you with configuring Git such that you can skip step 1.\n\nI have already uploaded videos for downloading packages and relevant information for those who have difficulty in understanding above mentioned points.\nInstalling R and RStudio,\nR Packages, Library, Errors,\nR Codes Basics"
   },
   {
     "objectID": "materials.html",
