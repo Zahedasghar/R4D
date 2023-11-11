@@ -1,16 +1,119 @@
 ---
 title: "Schedule"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-
-| Day | Topic |
-|------|------|
+| Day   | Topic                                                     |
+|-------|-----------------------------------------------------------|
 | Day 1 | [Meet R, Taxonomy of Data, Data cleaning and wrangling]() |
-| Day 2 | [Data visualization, tables and summarisation]()     |
-| Day 3 |   [Regression]() ,[Quarto publishing for reports ]()     |
- 
+| Day 2 | [Data visualization, tables and summarisation]()          |
+| Day 3 | [Regression]() ,[Quarto publishing for reports]()         |
 
-Dates has yet to be finalized:
--   13-11-2023
--   14-11-2023 
--   15-11-2023
+## Daywise detail
+
++---------------+---------------+---------------+------------------+
+| 13 -11-2023   | Title         | Topics to be  | Reading m        |
+|               |               | covered       | aterial          |
++---------------+---------------+---------------+------------------+
+| S ession-1    | Introduction  | Introduction  | [pos             |
+|               |               | to R,         | it](posit.cloud) |
+|               | Data          | RStudio,      |                  |
+|               | Vocabulary,   | Posit Cloud,  | \[taxonomy of    |
+|               | taxonomy (    | github        | data\]( https    |
+|               | nominal, ca   |               | :/               |
+|               | tegorical,    |               | /zahidasghar.com |
+|               | discrete, co  |               | /R4DA            |
+|               | ntinuous)     |               | /t               |
+|               |               |               | axonomy/taxonomy |
+|               | R-packages    |               | -of-d            |
+|               | and libraries |               | at               |
+|               |               |               | a#/title-slide)) |
++---------------+---------------+---------------+------------------+
+| S ession-2    | Introduction  |               | [intro-r](Int    |
+|               | to R,         |               | roduction to R ( |
+|               |               |               | zahidasghar.com) |
+|               | Reading       |               |                  |
+|               | /writing      |               | R for Data       |
+|               | STATA/ SPSS/  |               | Science by       |
+|               | csv/xlsx      |               | Hadley Wickham   |
+|               | webAPI data   |               |                  |
+|               | in R          |               |                  |
++---------------+---------------+---------------+------------------+
+| S ession-3    | Basics of     |               | Meet R , Slides  |
+|               | Data          |               | 1.2 in material  |
+|               | Wrangling     |               | section          |
++---------------+---------------+---------------+------------------+
+| Session 4     | Practice      | Education     | In- class lab    |
+|               | Session       | data of DHS,  | and exercise     |
+|               |               | PSLM, ASER,   |                  |
+|               |               | ALIFAILAN     |                  |
++---------------+---------------+---------------+------------------+
+| 14 -11-2023   |               | Some          |                  |
+|               |               | variation     |                  |
+|               |               | maybe there   |                  |
+|               |               | depending     |                  |
+|               |               | upon first    |                  |
+|               |               | day           |                  |
+|               |               | experience    |                  |
++---------------+---------------+---------------+------------------+
+| Session 1     | Recap and     | 5 verbs for   |                  |
+|               | continuation  | 80% of data   |                  |
+|               | of data       | wrangling     |                  |
+|               | wrangling     |               |                  |
++---------------+---------------+---------------+------------------+
+| S ession-2    | Data V        | bar, scatter, | graphics for     |
+|               | isualization  | line and      | categorical and  |
+|               | (when to make | histograms    | continuous data  |
+|               | which graph ) | with          | using R,         |
+|               |               | educational   |                  |
+|               |               | case study    |                  |
+|               |               | data in       |                  |
+|               |               | ggplot2       |                  |
++---------------+---------------+---------------+------------------+
+| S ession-3    | Lab on having | In-class lab  | Applications     |
+|               | data v        |               |                  |
+|               | isualization  |               |                  |
++---------------+---------------+---------------+------------------+
+| S ession-4    | -   \*Lab\*\* | Day 1 and day | Homework lab     |
+|               |               | 2 lessons     | discussion       |
+|               |               | with practice |                  |
+|               |               | on education, |                  |
+|               |               | gapminder and |                  |
+|               |               | other data    |                  |
+|               |               | sets          |                  |
++---------------+---------------+---------------+------------------+
+| Day-3         |               |               |                  |
++---------------+---------------+---------------+------------------+
+| S ession-1    | Data Tables,  | Learning Data | Tables from      |
+|               | Measure of    | Tables with R | various PIE re   |
+|               | central       | as published  | sources and r    |
+|               | tendency,     | in world      | eproducing       |
+|               | dispersion    | leading       | tables like 538, |
+|               |               | outlets       | NYT, WSJ, FT...  |
++---------------+---------------+---------------+------------------+
+|               | Exploratory   | Data          |                  |
+|               | data analysis | Exploration   |                  |
+|               | in minutes    | not in months |                  |
+|               |               | weeks but in  |                  |
+|               |               | minutes       |                  |
++---------------+---------------+---------------+------------------+
+| Se sssion-2   | Econometric   | Linear,       | PDSH, Caschool   |
+|               | models        | Generalized   | data             |
+|               |               | linear models |                  |
+|               |               | and other     |                  |
+|               |               | models        |                  |
++---------------+---------------+---------------+------------------+
+| S ession-3    | Conitinued    | How to have   |                  |
+|               |               | results of    |                  |
+|               |               | various       |                  |
+|               |               | models like   |                  |
+|               |               | those of      |                  |
+|               |               | leading       |                  |
+|               |               | journals      |                  |
++---------------+---------------+---------------+------------------+
+| S ession-4    | Practice      | Resources for |                  |
+|               | session and   | learning      |                  |
+|               | way forward   | yourself      |                  |
++---------------+---------------+---------------+------------------+

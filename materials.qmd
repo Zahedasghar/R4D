@@ -12,7 +12,7 @@ title: "Course Materials"
 
 [Video lectures](lectures/)
 
-[Taxonomy of data](https://zahidasghar.com/R4D/taxonomy-of-data#/title-slide)
+[Taxonomy of data](https://zahidasghar.com/R4DA/taxonomy/taxonomy-of-data#/title-slide)
 
 [Introduction to data](https://github.com/OpenIntroStat/openintro-statistics-slides/blob/master/Chp%201/chp1.pdf)
 
