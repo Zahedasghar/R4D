@@ -14,7 +14,7 @@ format:
 
 ## What will you learn
 
-Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will register for the workshop.
+Basic feature of this workshop will be to start exploring and modeling data using R along-with hands-on experience. All workshops recording, codes, slides and related things will be provided to all the participants once they will join for the workshop.
 
 ## By the end of Data Analysis with R, you'll understand:
 
